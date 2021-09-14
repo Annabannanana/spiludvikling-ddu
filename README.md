@@ -17,7 +17,7 @@ Description: Skydeskiven skal inspireres af den klassiske røde og hvide cirkel,
 Description: Skydeskiven skal forsvinde når den rammes, og en ny en skal tage dens plads, dog med “random” y-koordinater, for at lave en udfordring til brugeren.
 
 ## Skitse af skærmbilleder - paper prototype
-![image](https://user-images.githubusercontent.com/69625280/133248397-b973a94f-9e4f-45df-97f1-e310d60fb1a7.png)
+![image](https://user-images.githubusercontent.com/69625280/133249555-5f8e92b0-f012-41df-96ae-a195de6cea6f.png)
 
 ## Low-Fi prototype - første udkast
 https://youtu.be/GgRJtoMCZbM
