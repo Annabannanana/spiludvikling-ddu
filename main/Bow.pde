@@ -28,8 +28,8 @@ class Bow extends Component{
     
     
     
-    if(afstand > 400){
-      afstand = 400;
+    if(afstand > 300){
+      afstand = 300;
     }
     nextArrow.velo.x = (dist(nextArrow.loca.x, nextArrow.loca.y, mouseX, nextArrow.loca.y) / 50) * (afstand / 50);
     if(mouseY > 350){
@@ -50,7 +50,7 @@ class Bow extends Component{
       a.display();
       a.update();
     }
-    image(bow, 100, 400);
+    image(bow, 70, 400);
   }
   
 }
