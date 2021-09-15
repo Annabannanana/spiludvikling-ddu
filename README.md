@@ -85,6 +85,7 @@ Slut Dato: 22 September
 
 ## Planlagt brugertest
 Vi har planlagt at lave en brugertest Onsdag d. 15 September. Brugeren er et familiemedlem, som bedes om at leve sig ind i rollen som bueskytter.
+Brugeren bedes trykke på buen, for at pilen affyres. 
 
 ## Nuværende Burndown chart
 ![image](https://user-images.githubusercontent.com/69625280/133249054-c8dbb9aa-a980-40b8-9b84-fe47eefe070b.png)
