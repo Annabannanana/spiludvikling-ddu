@@ -90,6 +90,8 @@ Brugeren bedes trykke på buen, for at pilen affyres.
 Brugertest:
 https://youtu.be/EbmVLpnlCXE
 
+Brugeren blev bedt om at trykke på buen, således at pilen kan affyres. Pilen bliver nulstillet tilbage til dens oprindelige plads, og skydeskiven placeres et vilkårligt sted på y-aksen. Brugeren forstod denne opgave. Brugeren lærer hvordan tyngdekraften virker med pilen, og ændrer sin måde at sigte på, i forhold til hvad der blev konkluderet.
+
 Ud fra brugertesten, kan vi konkludere at vores low-fi prototype, godt kan laves til et endeligt program, siden brugertesten gik som den skulle. 
 
 ## Nuværende Burndown chart
