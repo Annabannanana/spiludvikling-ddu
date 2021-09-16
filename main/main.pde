@@ -8,6 +8,7 @@ void setup(){
   imageMode(CENTER);
   bow = new Bow();
   target = new Target();
+  target.update();
 }
 
 void draw(){
@@ -15,9 +16,11 @@ void draw(){
   background(0, 175, 200);  
   bow.display();
   target.display();
+  bow.collision();
   
 }
 
 void mousePressed(){
   bow.shoot();
+  //target.update();
 }
