@@ -1,6 +1,5 @@
 class Target extends Component{
   float targetX, targetY;
-  //int Pwidth= 100;
   PImage Target;
   
   Target(float targetX_, float targetY_){
@@ -21,6 +20,4 @@ class Target extends Component{
   void display(){
     image(Target, targetX, targetY);
   }
-  
-
 }

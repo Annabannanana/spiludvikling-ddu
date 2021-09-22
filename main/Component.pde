@@ -1,5 +1,4 @@
 class Component{
-
   
   float x, y, mass, w, h;
   PVector loca, velo, accel, grav;
@@ -12,7 +11,6 @@ class Component{
   }
   
   void display(){
-    
   }
     
 }

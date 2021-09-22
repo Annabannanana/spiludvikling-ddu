@@ -8,7 +8,4 @@ class Particle extends Component{
     loca = n.get();
     lifespan = 100;
   }
-  
-  
-  
 }

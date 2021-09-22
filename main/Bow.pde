@@ -1,10 +1,8 @@
 class Bow extends Component{
   
   ArrayList<Arrow> allArrows = new ArrayList<Arrow>();  
-  
   Arrow nextArrow;
   PImage bow;
-  
   Target currentTarget;
   
   Bow(){
@@ -28,11 +26,8 @@ class Bow extends Component{
     float afstand = dist(nextArrow.loca.x, nextArrow.loca.y, mouseX, mouseY);
     //new ints for the dist equation
     //println(afstand);
-    
-
-    
-    if(afstand > 300){
-      afstand = 300;
+    if(afstand > 200){
+      afstand = 200;
     }
     nextArrow.velo.x = (dist(nextArrow.loca.x, nextArrow.loca.y, mouseX, nextArrow.loca.y) / 50) * (afstand / 50);
     if(mouseY > 350){
@@ -40,8 +35,6 @@ class Bow extends Component{
     }else{
       nextArrow.velo.y = (dist(nextArrow.loca.x, nextArrow.loca.y, nextArrow.loca.x, mouseY) / 50) * (-afstand / 50);
     }
-    
-    
     //println(nextArrow.velo.x + " and " + nextArrow.velo.y);
     //then in the if and else statement, add the new ints to the velocities
     nextArrow.fired = true;
@@ -57,22 +50,19 @@ class Bow extends Component{
       println("targetX = " + targetX);
       println("targetY = " + targetY);
       */
-      if(a.loca.x < currentTarget.targetX + 100 && a.loca.x > currentTarget.targetX - 100 && a.loca.y < currentTarget.targetY + 100 && a.loca.y > currentTarget.targetY - 100){
+      if(a.loca.x < currentTarget.targetX + 50 && a.loca.x > currentTarget.targetX - 50 && a.loca.y < currentTarget.targetY + 50 && a.loca.y > currentTarget.targetY - 50){
         allArrows.remove(a);
         target.update();
-        println("Heey");
+        println("collision works");
       }
     }
   } 
- 
   
   void display(){
     for(Arrow a : allArrows){
       a.display();
       a.update();
-
     }
     image(bow, 70, 400);
   }
-  
 }
