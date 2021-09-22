@@ -79,7 +79,7 @@ Slut Dato: 21 September
 Start Dato: 21 September
 Task: Lav visuel repræsentation af både Pilen, Buen og skydeskiven
 Antal Timer: 6
-Task: Lav en evt. Baggrund til spilet
+Task: Lav en evt. Baggrund til spillet
 Antal Timer: 6
 Slut Dato: 22 September
 
