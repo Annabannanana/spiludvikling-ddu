@@ -1,8 +1,11 @@
-class Bow extends Target{
+class Bow extends Component{
   
-  ArrayList<Arrow> allArrows = new ArrayList<Arrow>();
+  ArrayList<Arrow> allArrows = new ArrayList<Arrow>();  
+  
   Arrow nextArrow;
   PImage bow;
+  
+  Target currentTarget;
   
   Bow(){
     newShot();
@@ -51,14 +54,17 @@ class Bow extends Target{
       /*
       println("a.loca.x = " + a.loca.x);
       println("a.loca.y = " + a.loca.y);
-      */
       println("targetX = " + targetX);
       println("targetY = " + targetY);
-      if(a.loca.x < targetX + 100 && a.loca.x > targetX - 100 && a.loca.y < targetY + 100 && a.loca.y > targetY - 100){
+      */
+      if(a.loca.x < currentTarget.targetX + 100 && a.loca.x > currentTarget.targetX - 100 && a.loca.y < currentTarget.targetY + 100 && a.loca.y > currentTarget.targetY - 100){
+        allArrows.remove(a);
         target.update();
+        println("Heey");
       }
     }
-  }
+  } 
+ 
   
   void display(){
     for(Arrow a : allArrows){

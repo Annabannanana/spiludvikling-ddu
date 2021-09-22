@@ -3,7 +3,9 @@ class Target extends Component{
   //int Pwidth= 100;
   PImage Target;
   
-  Target(){
+  Target(float targetX_, float targetY_){
+    targetX = targetX_;
+    targetY = targetY_;
     Target = loadImage("Target.png");
     Target.resize(50, 100);
   }
@@ -12,9 +14,13 @@ class Target extends Component{
     targetX = random(1000, 1450);
     targetY = random(50, 750);
     println("hit");
+    println("targetX = " + targetX);
+    println("targetY = " + targetY);
   }
   
   void display(){
     image(Target, targetX, targetY);
   }
+  
+
 }
