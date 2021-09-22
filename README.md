@@ -50,7 +50,9 @@ Antal Timer: 6
 Task: Lav en evt. Baggrund til spillet
 Antal Timer: 4
 
+
 ## Iterationsliste
+
 
 ### Iteration 1
 
@@ -70,6 +72,7 @@ Antal Timer: 15
 
 Slut Dato: 17 September
 
+
 ### Iteration 2
 
 Start Dato: 17 September
@@ -87,6 +90,7 @@ Task: Programmer en metode der kan holde styr på hvor mange gange “pilen” h
 Antal Timer: 8
 
 Slut Dato: 21 September
+
 
 ### Iteration 3
 
