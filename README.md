@@ -55,32 +55,51 @@ Antal Timer: 4
 ### Iteration 1
 
 Start Dato: 15 September
+
 Task: Lav og Test en Low-fi prototype
+
 Antal Timer: 10
+
 Task: Programmer en metode der kan affyre et objekt(Bue)
+
 Antal Timer: 15
+
 Task: Programmere en metode et objekt som bliver påvirket af “tyngdekræft”(Pil)
+
 Antal Timer: 15
+
 Slut Dato: 17 September
 
 ### Iteration 2
 
 Start Dato: 17 September
+
 Task: Programmer en metode der former et objekt på skærmen som brugeren skyder efter (Skydeskiven)
+
 Antal Timer: 8
+
 Task: Programmer en metode der gør at skydeskiven kommer frem på et tilfældigt y koordinat.
+
 Antal Timer: 10
+
 Task: Programmer en metode der kan holde styr på hvor mange gange “pilen” har ramt “skydeskiven”, og tilføjer et “point” hver gang skiven rammes.
+
 Antal Timer: 8
+
 Slut Dato: 21 September
 
 ### Iteration 3
 
 Start Dato: 21 September
+
 Task: Lav visuel repræsentation af både Pilen, Buen og skydeskiven
+
 Antal Timer: 6
+
 Task: Lav en evt. Baggrund til spillet
+
 Antal Timer: 6
+
 Slut Dato: 22 September
 
 ## Planlagt brugertest
