@@ -104,20 +104,26 @@ Ud fra brugertesten, kan vi konkludere at vores low-fi prototype, godt kan laves
 ### 15 September: 
 Vi påbegyndte de forskellige tasks, og low-fi prototypen med brugertest blev planlagt. Programmørene startede så småt på programmet.
 
-### 16 September: Low-fi prototypen blev testet, og en kort analyse påbegyndes. Programmørene færdiggjorde task: Programmer en metode der kan affyre et objekt(Bue). Vi blev færdige med størstedelen af hvad vi havde sat os for, og endda lidt mere til. 
+### 16 September: 
+Low-fi prototypen blev testet, og en kort analyse påbegyndes. Programmørene færdiggjorde task: Programmer en metode der kan affyre et objekt(Bue). Vi blev færdige med størstedelen af hvad vi havde sat os for, og endda lidt mere til. 
 
-### 17 September: Programmørene færdiggjorde task: Programmere en metode et objekt som bliver påvirket af “tyngdekræft”(Pil). Analysen af brugertest konkluderes. Vi blev hurtigre færdige her, da vi havde arbejdet særdeles hårdt dagen inden.
+### 17 September: 
+Programmørene færdiggjorde task: Programmere en metode et objekt som bliver påvirket af “tyngdekræft”(Pil). Analysen af brugertest konkluderes. Vi blev hurtigre færdige her, da vi havde arbejdet særdeles hårdt dagen inden.
 
 
 ## Iteration 2.
 
-### 17 September: Efter færdiggørelsen af brugertesten, begyndte vi med de mere komplicerede programændringer, eftersom konklusionen af brugeranalysen dikterede at low-fi prototypen var god nok til at lave et program ud fra. Denne del tog længere tid end planlagt.
+### 17 September: 
+Efter færdiggørelsen af brugertesten, begyndte vi med de mere komplicerede programændringer, eftersom konklusionen af brugeranalysen dikterede at low-fi prototypen var god nok til at lave et program ud fra. Denne del tog længere tid end planlagt.
 
-### 21 September: Færddiggørelsen af disse tasks blev opsumeret i et task-manager møde mellem gruppemedlemmerne, hvor der, i person, blev rettet på eventuelle fejl m.m. Vi nåede næsten at blive færdige.
+### 21 September: 
+Færddiggørelsen af disse tasks blev opsumeret i et task-manager møde mellem gruppemedlemmerne, hvor der, i person, blev rettet på eventuelle fejl m.m. Vi nåede næsten at blive færdige.
 
 
 ## Iteration 3.
 
-### 21 September: Efter task-manager mødet, arbejdede medlemmerne i gruppen på at visualisere programmet. Dette indebar buen, pilen, skydeskiven og baggrunden, således at spillet fik en cartoon-stil, der var sjov at spille med, for målgruppen.
+### 21 September: 
+Efter task-manager mødet, arbejdede medlemmerne i gruppen på at visualisere programmet. Dette indebar buen, pilen, skydeskiven og baggrunden, således at spillet fik en cartoon-stil, der var sjov at spille med, for målgruppen.
 
-### 22 September: Så blev der opsumeret projektet, og skrevet de sidste ting ind på README’en. Der blev også lavet de detaljer vi ikke nåede dagen forinden.
+### 22 September: 
+Så blev der opsumeret projektet, og skrevet de sidste ting ind på README’en. Der blev også lavet de detaljer vi ikke nåede dagen forinden.
