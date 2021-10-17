@@ -1,27 +1,27 @@
 class Bow extends Component{
-  
-  ArrayList<Arrow> allArrows = new ArrayList<Arrow>();  
+
+  ArrayList<Arrow> allArrows = new ArrayList<Arrow>();
   Arrow nextArrow;
   PImage bow;
   Target currentTarget;
-  
+ 
   Bow(){
     newShot();
     bow = loadImage("Bow.png");
     bow.resize(150, 200);
   }
-  
+
   void newShot(){
     Arrow newShot = new Arrow();
     newShot.loca.x = 100;
     newShot.loca.y = 400;
     newShot.w = 15; 
     newShot.h = 15;
-    
+
     allArrows.add(newShot);
     nextArrow = allArrows.get(allArrows.size() - 1);
   }
-  
+
   void shoot(){
     float afstand = dist(nextArrow.loca.x, nextArrow.loca.y, mouseX, mouseY);
     //new ints for the dist equation
@@ -40,7 +40,7 @@ class Bow extends Component{
     nextArrow.fired = true;
     newShot();
   }
-  
+
   void collision(){
     for(Arrow a : allArrows){
       //println(allArrows.size());
@@ -54,15 +54,21 @@ class Bow extends Component{
         allArrows.remove(a);
         target.update();
         println("collision works");
+        p=p+1;
+
+
       }
     }
   } 
-  
+
   void display(){
     for(Arrow a : allArrows){
       a.display();
       a.update();
-    }
+      textFont(f,24);
+      text(points + p, 100, 100);
+
+}
     image(bow, 70, 400);
   }
 }
